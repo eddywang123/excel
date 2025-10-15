@@ -1,0 +1,10 @@
+# 示例 Outlook/Exchange 配置（如不填写用户名/密码会使用代码里写死的默认值）
+# server: outlook.office365.com  # 当自动发现不可用时填写
+# autodiscover: true             # 为 false 时需提供 server
+# username: your.name@example.com
+# password: app-specific-password
+# mailbox: Inbox/子文件夹        # 可选，支持多级路径
+# 如需覆盖默认写死的 DeepSeek 参数，可在此填写
+# deepseek_api_key: sk-your-own-key
+# deepseek_api_url: https://api.deepseek.com/chat/completions
+# deepseek_model: deepseek-chat
